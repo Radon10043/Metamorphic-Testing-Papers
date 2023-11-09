@@ -1,0 +1,7 @@
+# Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors
+
+* <img src="../../icons/pdf.png" width="24px">[Paper]()
+
+**Abstract:** We propose a robustness testing approach for software systems that process large amounts of data. Our method uses metamorphic relations to check software output for erroneous input in the absence of a tangible test oracle. We use this technique to test two major citation database systems: Scopus and the Web of Science. We report a surprising finding that the inclusion of hyphens in paper titles impedes citation counts, and that this is a result of the lack of robustness of the citation database systems in handling hyphenated paper titles. Our results are valid for the entire literature as well as for individual fields such as chemistry. We further find a strong and significant negative correlation between the journal impact factor (JIF) of IEEE Transactions on Software Engineering (TSE) and the percentage of hyphenated paper titles published in TSE. Similar results are found for ACM Transactions on Software Engineering and Methodology. A software engineering field-wide study reveals that the higher JIF-ranked journals are publishing a lower percentage of papers with hyphenated titles. Our results challenge the common belief that citation counts and JIFs are reliable measures of the impact of papers and journals, as they can be distorted simply by the presence of hyphens in paper titles.
+
+[Back](../../README.md)

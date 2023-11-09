@@ -1,0 +1,7 @@
+# Metamorphic Model-Based Testing Applied on NASA DAT -- An Experience Report
+
+* <img src="../../icons/pdf.png" width="24px">[Paper](./Metamorphic_Model-Based_Testing_Applied_on_NASA_DAT_An_Experience_Report.pdf)
+
+**Abstract:** Testing is necessary for all types of systems, but becomes difficult when the tester cannot easily determine whether the system delivers the correct result or not. NASA's Data Access Toolkit allows NASA analysts to query a large database of telemetry data. Since the user is unfamiliar with the data and several data transformations can occur, it is impossible to determine whether the system behaves correctly or not in full scale production situations. Small scale testing was already conducted manually by other teams and unit testing was conducted on individual functions. However, there was still a need for full scale acceptance testing on a broad scale. We describe how we addressed this testing problem by applying the idea of metamorphic testing [1]. Specifically, we base it on equivalence of queries and by using the system itself for testing. The approach is implemented using a model-based testing approach in combination with a test data generation and test case outcome analysis strategy. We also discuss some of the issues that were detected using this approach.
+
+[Back](../../README.md)

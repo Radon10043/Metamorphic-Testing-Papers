@@ -1,0 +1,7 @@
+# Generating metamorphic relations for cyber-physical systems with genetic programming: an industrial case study
+
+* <img src="../../icons/pdf.png" width="24px">[Paper](./Generating_Metamorphic_Relations_for_Cyber-physical_Systems_with_Genetic_Programming_An_Industrial_Case_Study.pdf)
+
+**Abstract:** One of the major challenges in the verification of complex industrial Cyber-Physical Systems is the difficulty of determining whether a particular system output or behaviour is correct or not, the so-called test oracle problem. Metamorphic testing alleviates the oracle problem by reasoning on the relations that are expected to hold among multiple executions of the system under test, which are known as Metamorphic Relations (MRs). However, the development of effective MRs is often challenging and requires the involvement of domain experts. In this paper, we present a case study aiming at automating this process. To this end, we implemented GAssertMRs, a tool to automatically generate MRs with genetic programming. We assess the cost-effectiveness of this tool in the context of an industrial case study from the elevation domain. Our experimental results show that in most cases GAssertMRs outperforms the other baselines, including manually generated MRs developed with the help of domain experts. We then describe the lessons learned from our experiments and we outline the future work for the adoption of this technique by industrial practitioners.
+
+[Back](../../README.md)

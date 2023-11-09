@@ -1,0 +1,7 @@
+# Identifying Implementation Bugs in Machine Learning Based Image Classifiers using Metamorphic Testing
+
+* <img src="../../icons/pdf.png" width="24px">[Paper](./Identifying_Implementation_Bugs_in_Machine_Learning_Based_Image_Classifiers_using_Metamorphic_Testing.pdf)
+
+**Abstract:** We have recently witnessed tremendous success of Machine Learning (ML) in practical applications. Computer vision, speech recognition and language translation have all seen a near human level performance. We expect, in the near future, most business applications will have some form of ML. However, testing such applications is extremely challenging and would be very expensive if we follow today's methodologies. In this work, we present an articulation of the challenges in testing ML based applications. We then present our solution approach, based on the concept of Metamorphic Testing, which aims to identify implementation bugs in ML based image classifiers. We have developed metamorphic relations for an application based on Support Vector Machine and a Deep Learning based application. Empirical validation showed that our approach was able to catch 71% of the implementation bugs in the ML applications.
+
+[Back](../../README.md)

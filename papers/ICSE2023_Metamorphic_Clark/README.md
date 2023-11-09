@@ -1,0 +1,7 @@
+# Metamorphic Testing with Causal Graphs
+
+* <img src="../../icons/pdf.png" width="24px">[Paper](./Metamorphic_Testing_with_Causal_Graphs.pdf)
+
+**Abstract:** Metamorphic testing provides a means by which to generate succinct test oracles that can apply to large input spaces. For this it depends on the formulation of metamorphic relations, which generally require extensive domain expertise and human input. To address this problem, we present a model-based testing approach that can automatically generate metamorphic relations and associated tests. Our approach is motivated by the observation that metamorphic testing is a fundamentally causal task. We show how it is possible to leverage lightweight graph-based modelling techniques from the field of causal inference to specify causal properties of the system-under-test. Through a series of controlled experiments, we find that the proposed approach is robust to misspecification and can test evasive causal relationships (i.e. those that are difficult to exercise and observe) when combined with an appropriate test generation strategy. We also apply the approach to two case studies from the Defects4J framework with known bugs that affect causal behaviour. The results of these case studies suggest that the approach is not only useful for catching bugs affecting causal structure, but also alerting the user to inaccuracies in the specification.
+
+[Back](../../README.md)
