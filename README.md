@@ -48,30 +48,32 @@ Remark: This website is only used for collecting and grouping the related paper.
 
 - **TSE 2023**
   - [Feedback-directed Metamorphic Testing](papers/Feedback-Directed_Metamorphic_Testing/README.md)
-  - Metamorphic Testing for Web System Security
+  - [Metamorphic Testing for Web System Security](papers/TSE2023_Metamorphic/README.md)
 
 - **TSE 2022**
   - [Using Metamorphic Testing to Improve the Quality of Tags in OpenStreetMap](papers/TSE2022_Using/README.md)
   - [A Declarative Metamorphic Testing Framework for Autonomous Driving](papers/TSE2022_Declarative/README.md)
-  - Enhance Combinatorial Testing With Metamorphic Relations
-  - Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition
 
 - **TSE 2021**
-  - Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors
+  - [Enhance Combinatorial Testing With Metamorphic Relations](papers/TSE2021_Enhance/README.md)
+  - [Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors](papers/TSE2021_Metamorphic/README.md)
   - [BiasFinder: Metamorphic Test Generation to Uncover Bias for Sentiment Analysis Systems](papers/TSE2021_BiasFinder/README.md)
+
+- **TSE 2020**
+  - [Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition](papers/TSE2020_Theoretical/README.md)
 
 - **TSE 2019**
   - [METRIC+: A Metamorphic Relation Identification Technique Based on Input Plus Output Domains](papers/TSE2019_METRIC+/README.md)
 
 - **TSE 2018**
-  - Metamorphic Relations for Enhancing System Understanding and Use
+  - [Metamorphic Relations for Enhancing System Understanding and Use](papers/TSE2018_Metamorphic/README.md)
 
 - **TSE 2016**
   - [A Survey on Metamorphic Testing](papers/TSE2016_Survey/README.md)
   - [Metamorphic Testing for Software Quality Assessment: A Study of Search Engines](papers/TSE2016_Metamorphic/README.md)
 
 - **TSE 2013**
-  - How Effectively Does Metamorphic Testing Alleviate the Oracle Problem?
+  - [How Effectively Does Metamorphic Testing Alleviate the Oracle Problem?](papers/TSE2013_How/README.md)
 
 - **CSUR 2018**
   - [Metamorphic Testing: A Review of Challenges and Opportunities](papers/CSUR2018_Metamorphic/README.md)

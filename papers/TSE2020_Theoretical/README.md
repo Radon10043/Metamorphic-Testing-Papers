@@ -1,0 +1,7 @@
+# Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition
+
+* <img src="../../icons/pdf.png" width="24px">[Paper](./Theoretical_and_Empirical_Analyses_of_the_Effectiveness_of_Metamorphic_Relation_Composition.pdf)
+
+**Abstract:** Metamorphic Relations (MRs) play a key role in determining the fault detection capability of Metamorphic Testing (MT). As human judgement is required for MR identification, systematic MR generation has long been an important research area in MT. Additionally, due to the extra program executions required for follow-up test cases, some concerns have been raised about MT cost-effectiveness. Consequently, the reduction in testing costs associated with MT has become another important issue to be addressed. MR composition can address both of these problems. This technique can automatically generate new MRs by composing existing ones, thereby reducing the number of follow-up test cases. Despite this advantage, previous studies on MR composition have empirically shown that some composite MRs have lower fault detection capability than their corresponding component MRs. To investigate this issue, we performed theoretical and empirical analyses to identify what characteristics component MRs should possess so that their corresponding composite MR has at least the same fault detection capability as the component MRs do. We have also derived a convenient, but effective guideline so that the fault detection capability of MT will most likely not be reduced after composition.
+
+[Back](../../README.md)
