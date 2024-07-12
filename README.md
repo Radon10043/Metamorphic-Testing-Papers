@@ -1,6 +1,6 @@
-# Recent Papers Related To Metamorphic Testing
+# Metamorphic Testing Papers
 
-Remark: This website is only used for collecting and grouping the related paper.
+Remark: This website is only used for collecting and grouping the related Metamorphic Testing paper.
 
 # All Papers
 
