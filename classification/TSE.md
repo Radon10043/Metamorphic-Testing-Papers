@@ -2,13 +2,15 @@
 
 [Back](../README.md#all-papers)
 
+## TSE 2024
+
+### GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming
+
+* <img src="../icons/pdf.png" width="24px">[Paper](https://ieeexplore.ieee.org/abstract/document/10542726)
+
+Metamorphic testing is a popular approach that aims to alleviate the oracle problem in software testing. At the core of this approach are Metamorphic Relations (MRs), specifying properties that hold among multiple test inputs and corresponding outputs. Deriving MRs is mostly a manual activity, since their automated generation is a challenging and largely unexplored problem. This paper presents GenMorph , a technique to automatically generate MRs for Java methods that involve inputs and outputs that are boolean, numerical, or ordered sequences. GenMorph uses an evolutionary algorithm to search for effective test oracles, i.e., oracles that trigger no false alarms and expose software faults in the method under test. The proposed search algorithm is guided by two fitness functions that measure the number of false alarms and the number of missed faults for the generated MRs. Our results show that GenMorph generates effective MRs for 18 out of 23 methods (mutation score > 20%). Furthermore, it can increase Randoop 's fault detection capability in 7 out of 23 methods, and Evosuite 's in 14 out of 23 methods. When compared with AutoMR , a state-of-the-art MR generator, GenMorph also outperformed its fault detection capability in 9 out of 10 methods.
+
 ## TSE 2023
-
-### Feedback-directed Metamorphic Testing
-
-* <img src="../icons/pdf.png" width="24px">[Paper](https://dl.acm.org/doi/abs/10.1145/3533314)
-
-**Abstract:** Over the past decade, metamorphic testing has gained rapidly increasing attention from both academia and industry, particularly thanks to its high efficacy on revealing real-life software faults in a wide variety of application domains. On the basis of a set of metamorphic relations among multiple software inputs and their expected outputs, metamorphic testing not only provides a test case generation strategy by constructing new (or follow-up) test cases from some original (or source) test cases, but also a test result verification mechanism through checking the relationship between the outputs of source and follow-up test cases. Many efforts have been made to further improve the cost-effectiveness of metamorphic testing from different perspectives. Some studies attempted to identify “good” metamorphic relations, while other studies were focused on applying effective test case generation strategies especially for source test cases. In this article, we propose improving the cost-effectiveness of metamorphic testing by leveraging the feedback information obtained in the test execution process. Consequently, we develop a new approach, namely feedback-directed metamorphic testing, which makes use of test execution information to dynamically adjust the selection of metamorphic relations and selection of source test cases. We conduct an empirical study to evaluate the proposed approach based on four laboratory programs, one GNU program, and one industry program. The empirical results show that feedback-directed metamorphic testing can use fewer test cases and take less time than the traditional metamorphic testing for detecting the same number of faults. It is clearly demonstrated that the use of feedback information about test execution does help enhance the cost-effectiveness of metamorphic testing. Our work provides a new perspective to improve the efficacy and applicability of metamorphic testing as well as many other software testing techniques.
 
 ### Metamorphic Testing for Web System Security
 

@@ -33,6 +33,9 @@ Remark: This website is only used for collecting and grouping the related Metamo
 - **ISSTA 2018**
   - [Identifying Implementation Bugs in Machine Learning Based Image Classifiers using Metamorphic Testing](classification/ISSTA.md#identifying-implementation-bugs-in-machine-learning-based-image-classifiers-using-metamorphic-testing)
 
+- **ASE 2024**
+  - [MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing](classification/ASE.md#mr-adopt-automatic-deduction-of-input-transformation-function-for-metamorphic-testing)
+
 - **ASE 2022**
   - [ElecDaug: Electromagnetic Data Augmentation for Model Repair based on Metamorphic Relation](classification/ASE.md#elecdaug-electromagnetic-data-augmentation-for-model-repair-based-on-metamorphic-relation)
   - [Unveiling Hidden DNN Defects with Decision-Based Metamorphic Testing](classification/ASE.md#unveiling-hidden-dnn-defects-with-decision-based-metamorphic-testing)
@@ -56,8 +59,10 @@ Remark: This website is only used for collecting and grouping the related Metamo
   - [New Visions on Metamorphic Testing after a Quarter of a Century of Inception](classification/FSE.md#new-visions-on-metamorphic-testing-after-a-quarter-of-a-century-of-inception)
   - [Metamorphic Testing of Datalog Engines](classification/FSE.md#metamorphic-testing-of-datalog-engines)
 
+- **TSE 2024**
+  - [GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming](classification/TSE.md#genmorph-automatically-generating-metamorphic-relations-via-genetic-programming)
+
 - **TSE 2023**
-  - [Feedback-directed Metamorphic Testing](classification/TSE.md#feedback-directed-metamorphic-testing)
   - [Metamorphic Testing for Web System Security](classification/TSE.md)
 
 - **TSE 2022**
@@ -84,6 +89,12 @@ Remark: This website is only used for collecting and grouping the related Metamo
 
 - **TSE 2013**
   - [How Effectively Does Metamorphic Testing Alleviate the Oracle Problem?](classification/TSE.md#how-effectively-does-metamorphic-testing-alleviate-the-oracle-problem)
+
+- **TOSEM 2024**
+  - [MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases](classification/TOSEM.md)
+
+- **TOSEM 2023**
+  - [Feedback-directed Metamorphic Testing](classification/TOSEM.md#feedback-directed-metamorphic-testing)
 
 - **CSUR 2018**
   - [Metamorphic Testing: A Review of Challenges and Opportunities](classification/CSUR.md#metamorphic-testing-a-review-of-challenges-and-opportunities)
