@@ -4,6 +4,12 @@ Remark: This website is only used for collecting and grouping the related Metamo
 
 # All Papers
 
+- **TOSEM 2025**
+  - [Identifying the Failure-Revealing Test Cases in Metamorphic Testing: A Statistical Approach](classification/TOSEM.md#identifying-the-failure-revealing-test-cases-in-metamorphic-testing-a-statistical-approach)
+
+- **SANER 2025**
+  - [Can Large Language Models Discover Metamorphic Relations? A Large-Scale Empirical Study](classification/SANER.md#can-large-language-models-discover-metamorphic-relations-a-large-scale-empirical-study)
+
 - **ASE 2024**
   - [MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing](classification/ASE.md#mr-adopt-automatic-deduction-of-input-transformation-function-for-metamorphic-testing)
 
@@ -15,8 +21,13 @@ Remark: This website is only used for collecting and grouping the related Metamo
 - **ICSE 2024**
   - [EDEFuzz: A Web API Fuzzer for Excessive Data Exposures](classification/ICSE.md#edefuzz-a-web-api-fuzzer-for-excessive-data-exposures)
 
+- **OOPSLA 2024**
+  - [Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models](classification/OOPSLA.md#drowzee-metamorphic-testing-for-fact-conflicting-hallucination-detection-in-large-language-models)
+
 - **TOSEM 2024**
-  - [MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases](classification/TOSEM.md)
+  - [Word Closure-Based Metamorphic Testing for Machine Translation](classification/TOSEM.md#word-closure-based-metamorphic-testing-for-machine-translation)
+  - [MET-MAPF: A Metamorphic Testing Approach for Multi-Agent Path Finding Algorithms](classification/TOSEM.md#met-mapf-a-metamorphic-testing-approach-for-multi-agent-path-finding-algorithms)
+  - [MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases](classification/TOSEM.md#mr-scout-automated-synthesis-of-metamorphic-relations-from-existing-test-cases)
 
 - **TSE 2024**
   - [GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming](classification/TSE.md#genmorph-automatically-generating-metamorphic-relations-via-genetic-programming)
