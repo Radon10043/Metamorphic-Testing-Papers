@@ -2,6 +2,28 @@
 
 [Back](../README.md#all-papers)
 
+## ICSE 2025
+
+### ChatGPT Inaccuracy Mitigation during Technical Report Understanding: Are We There Yet?
+
+* <img src="../icons/pdf.png" width="24px">[Paper](https://arxiv.org/abs/2411.07360)
+
+Hallucinations, the tendency to produce irrelevant/incorrect responses, are prevalent concerns in generative AI-based tools like ChatGPT. Although hallucinations in ChatGPT are studied for textual responses, it is unknown how ChatGPT hallucinates for technical texts that contain both textual and technical terms. We surveyed 47 software engineers and produced a benchmark of 412 Q&A pairs from the bug reports of two OSS projects. We find that a RAG-based ChatGPT (i.e., ChatGPT tuned with the benchmark issue reports) is 36.4% correct when producing answers to the questions, due to two reasons 1) limitations to understand complex technical contents in code snippets like stack traces, and 2) limitations to integrate contexts denoted in the technical terms and texts. We present CHIME (ChatGPT Inaccuracy Mitigation Engine) whose underlying principle is that if we can preprocess the technical reports better and guide the query validation process in ChatGPT, we can address the observed limitations. CHIME uses context-free grammar (CFG) to parse stack traces in technical reports. CHIME then verifies and fixes ChatGPT responses by applying metamorphic testing and query transformation. In our benchmark, CHIME shows 30.3% more correction over ChatGPT responses. In a user study, we find that the improved responses with CHIME are considered more useful than those generated from ChatGPT without CHIME
+
+### ROSA: Finding Backdoors with Fuzzing
+
+* <img src="../icons/pdf.png" width="24px">[Paper](https://binsec.github.io/assets/publications/papers/2025-icse.pdf)
+
+A code-level backdoor is a hidden access, programmed and concealed within the code of a program. For instance, hard-coded credentials planted in the code of a file server application would enable maliciously logging into all deployed instances of this application. Confirmed software supplychain attacks have led to the injection of backdoors into popular open-source projects, and backdoors have been discovered in various router firmware. Manual code auditing for backdoors is challenging and existing semi-automated approaches can handle only a limited scope of programs and backdoors, while requiring manual reverse-engineering of the audited (binary) program. Graybox fuzzing (automated semi-randomized testing) has grown in popularity due to its success in discovering vulnerabilities and hence stands as a strong candidate for improved backdoor detection. However, current fuzzing knowledge does not offer any means to detect the triggering of a backdoor at runtime.
+
+In this work we introduce ROSA, a novel approach (and tool) which combines a state-of-the-art fuzzer (AFL++) with a new metamorphic test oracle, capable of detecting runtime backdoor triggers. To facilitate the evaluation of ROSA, we have created ROSARUM, the first openly available benchmark for assessing the detection of various backdoors in diverse programs. Experimental evaluation shows that ROSA has a level of robustness, speed and automation similar to classical fuzzing. It finds all 17 authentic or synthetic backdooors from ROSARUM in 1h30 on average. Compared to existing detection tools, it can handle a diversity of backdoors and programs and it does not rely on manual reverse-engineering of the fuzzed binary code.
+
+### Metamorphic-Based Many-Objective Distillation of LLMs for Code-related Tasks
+
+* <img src="../icons/pdf.png" width="24px">[Paper](https://research.tudelft.nl/en/publications/metamorphic-based-many-objective-distillation-of-llms-for-code-re)
+
+Knowledge distillation compresses large language models (LLMs) into more compact and efficient versions that achieve similar accuracy on code-related tasks. However, as we demonstrate in this study, compressed models are four times less robust than the original LLMs when evaluated with metamorphic code. They have a 440% higher probability of misclassifying code clones due to minor changes in the code fragment under analysis, such as replacing parameter names with synonyms. To address this issue, we propose MORPH, a method that combines metamorphic testing with many-objective optimization for a robust distillation of LLMs for code. MORPH efficiently explores the models’ configuration space and generates Paretooptimal models that effectively balance accuracy, efficiency, and robustness to metamorphic code. Metamorphic testing measures robustness as the number of code fragments for which a model incorrectly makes different predictions between the original and their equivalent metamorphic variants (prediction flips). We evaluate MORPH on two tasks—code clone and vulnerability detection—targeting CodeBERT and GraphCodeBERT for distillation. Our comparison includes MORPH, the state-of-theart distillation method AVATAR, and the fine-tuned non-distilled LLMs. Compared to AVATAR, MORPH produces compressed models that are (i) 47% more robust, (ii) 25% more efficient (fewer FLOPs), while maintaining (iii) equal or higher accuracy (up to +6%), and (iv) similar model size.
+
 ## ICSE 2024
 
 ### EDEFuzz: A Web API Fuzzer for Excessive Data Exposures

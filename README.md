@@ -4,6 +4,11 @@ Remark: This website is only used for collecting and grouping the related Metamo
 
 # All Papers
 
+- **ICSE 2025**
+  - [ChatGPT Inaccuracy Mitigation during Technical Report Understanding: Are We There Yet?](classification/ICSE.md#chatgpt-inaccuracy-mitigation-during-technical-report-understanding-are-we-there-yet) - [*arXiv*](https://arxiv.org/abs/2411.07360)
+  - [ROSA: Finding Backdoors with Fuzzing](classification/ICSE.md#rosa-finding-backdoors-with-fuzzing) - [*github.io*](https://binsec.github.io/assets/publications/papers/2025-icse.pdf)
+  - [Metamorphic-Based Many-Objective Distillation of LLMs for Code-related Tasks](classification/ICSE.md#metamorphic-based-many-objective-distillation-of-llms-for-code-related-tasks) - [*TUDelft*](https://research.tudelft.nl/en/publications/metamorphic-based-many-objective-distillation-of-llms-for-code-re)
+
 - **TOSEM 2025**
   - [Identifying the Failure-Revealing Test Cases in Metamorphic Testing: A Statistical Approach](classification/TOSEM.md#identifying-the-failure-revealing-test-cases-in-metamorphic-testing-a-statistical-approach)
 
